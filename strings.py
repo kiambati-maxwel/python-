@@ -56,8 +56,42 @@ print(s.isalpha())
 # is all numeric 
 print(s.isnumeric())
 
+#input text 
+first_name = input('please input your first name: ')
+second_name = input('please input your second name: ')
 
+print(f'hello {first_name.capitalize()} {second_name.capitalize()}. Hae are you doing mahn ?')
+'''
+In JavaScript:
+const name = prompt(what is your name ?);
+console.log(name);
+'''
 
+#convert to string
+days_in_feb = 28
+print(str(days_in_feb) + ' days in february')
+'''
+#in javascript:
+      const days_in_feb = 28
+      console.log(days_in_feb.toString())
+      String(days_in_feb)
+'''
 
+#convert from string to int all float
+first_num = input('enter first num: ')
+second_num = input('enter second number: ')
+print(f'input always takes in a string {first_num} + {second_num} = {int(first_num) + float(second_num)}')
 
-# ----- 
+'''
+in javascript:
+to number : Number("3.44")
+
+Converting Dates to numbers:
+d = new Date()
+Number(d)
+
+or 
+
+d = new Date()
+d.getTime()
+'''
